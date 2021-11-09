@@ -1,0 +1,51 @@
+body{
+  background-color: blue;
+}
+.h1
+{
+  text-align: left;
+border-left: 10px solid rgb(255, 0, 0);
+background-color: green;
+color: white;
+font-family:sans-serif;
+}
+.btn-group .button  {
+  font-family:sans-serif;
+    background-color: blue;/* Green */
+    border: 1px solid rgb(2, 160, 2);
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration:double;
+    font-size: 16px;
+    cursor: pointer;
+    width: 320px;
+    height: 120px;
+    display: block;
+  position: relative;
+    left: 20px;
+  }
+  
+  .btn-group .button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+  }
+  
+  .btn-group .button:hover, .button:active {
+    background-color:white;
+    
+  }
+  .btn-group a:link, a:visited {
+    background-color: #3e8e41;
+    color: white;
+    padding: 30px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .g2{
+    text-align: center;
+    color: white;
+  }
+  .g{
+    color:white
+  }
